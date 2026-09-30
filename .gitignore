@@ -1,0 +1,32 @@
+# Node dependencies & build output
+node_modules/
+.output/
+.nitro/
+.tanstack/
+.vinxi/
+dist/
+build/
+*.log
+
+# Python & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+.env
+
+# SQLite & Data files
+*.db
+*.sqlite3
+ulpf_data.db
+backend/data/
+
+# OS metadata
+.DS_Store
+Thumbs.db
